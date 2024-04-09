@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" modified="2023-10-28T16:11:38.710Z" agent="Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="XjpzEP3A617ROngvRXTz" version="22.0.8" type="device">
+  <diagram name="Page-1" id="EYiUxtwD9I5pv0MgxX4-">
+    <mxGraphModel dx="1284" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-20" value="patient" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-22" value="doctor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19b0gcJ2xtwtPyLKBDgT-29" target="19b0gcJ2xtwtPyLKBDgT-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-43" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="19b0gcJ2xtwtPyLKBDgT-42">
+          <mxGeometry x="-0.4462" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-29" value="print prescription&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-30" value="download prescription&lt;br&gt;site&amp;nbsp; &amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-500" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-32" value="enter&lt;br&gt;modify&lt;br&gt;delete&amp;nbsp;&lt;br&gt;prescription&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-350" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19b0gcJ2xtwtPyLKBDgT-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="-430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-47" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="19b0gcJ2xtwtPyLKBDgT-46">
+          <mxGeometry x="0.0925" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-33" value="review online prescription&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.233;entryY=0.958;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="19b0gcJ2xtwtPyLKBDgT-32" target="19b0gcJ2xtwtPyLKBDgT-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-39" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="19b0gcJ2xtwtPyLKBDgT-38">
+          <mxGeometry x="0.0228" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.276;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="19b0gcJ2xtwtPyLKBDgT-22" target="19b0gcJ2xtwtPyLKBDgT-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="-450" as="sourcePoint" />
+            <mxPoint x="470" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="19b0gcJ2xtwtPyLKBDgT-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="-310" as="sourcePoint" />
+            <mxPoint x="470" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="19b0gcJ2xtwtPyLKBDgT-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="-310" as="sourcePoint" />
+            <mxPoint x="470" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19b0gcJ2xtwtPyLKBDgT-62" value="patient&#39;s medical prescription&amp;nbsp;&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-580" width="590" height="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
